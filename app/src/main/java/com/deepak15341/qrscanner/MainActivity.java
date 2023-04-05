@@ -31,7 +31,7 @@ public static TextView textViewresult;
                 intentIntegrator.setOrientationLocked(false);
                 intentIntegrator.setDesiredBarcodeFormats(IntentIntegrator.ALL_CODE_TYPES);
                 intentIntegrator.setPrompt("Place your QR Code Inside The Block");
-                intentIntegrator.setCameraId(1);
+                intentIntegrator.setCameraId(0);
                 intentIntegrator.initiateScan();
 
             }
